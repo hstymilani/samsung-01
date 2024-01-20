@@ -1,0 +1,203 @@
+div.wrapper>div.menue{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+div.wrapper>div.menue>nav>div.logo{
+    width: 7%;
+    height: 80px;
+    position: absolute;
+    left: 140px;    
+}
+div.wrapper>div.menue>nav>div.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+div.wrapper>div.menue>nav>div.eight{
+    width: 41%;
+    height: 80px;
+    position: absolute;
+    left: 320px;
+}
+div.wrapper>div.menue>nav>div.eight>ul{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    line-height: 79px;
+    transition: 200ms;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>a{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding: 5px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li:hover>a{
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 20px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.submenue{
+    width: 1350px;
+    height: 360px;
+    position: absolute;
+    bottom: -360px;
+    left: -150px;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid rgb(189, 189, 189);
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 50;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li:hover>div.submenue{
+    display: block;
+    
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.submenue>ul{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 5px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.submenue>ul>li{
+    display: inline-block;
+    vertical-align: top;
+    width: 16.2%;
+    line-height: 35px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.submenue>ul>li>a{
+    color: gray;
+    transition: 200ms;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.submenue>ul>li>a:hover{
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+div.wrapper>div.menue>nav>div.three{
+    width: 15.5%;
+    height: 80px;
+    position: absolute;
+    right: 320px;
+    padding-top: 20px;
+}
+div.wrapper>div.menue>nav>div.three>ul{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+div.wrapper>div.menue>nav>div.three>ul>li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    line-height: 35px;
+    transition: 200ms;
+}
+div.wrapper>div.menue>nav>div.three>ul>li>a{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+div.wrapper>div.menue>nav>div.three>ul>li:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+div.wrapper>div.menue>nav>div.three>ul>li:hover>a{
+    color: whitesmoke;
+}
+div.wrapper>div.menue>nav>div.icon{
+    width: 8%;
+    height: 100%;
+    position: absolute;
+    right: 155px;
+}
+div.wrapper>div.menue>nav>div.icon>i{
+    font-size: 26px;
+    margin: 0 7px;
+    line-height: 80px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue{
+    width: 680px;
+    height: 550px;
+    position: absolute;
+    bottom: -550px;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid rgb(189, 189, 189);
+    text-align: left;
+    padding-top: 10px;
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 50;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li:hover>div.mobSubmenue{
+    display: block;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>ul{
+    width: 29%;
+    height: 98%;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid rgb(189, 189, 189);
+    margin-right: 10px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>ul>li{
+    padding-left: 10px;
+    line-height: 30px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>ul>li>a{
+    color: gray;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>ul>li>a:hover{
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box>div{
+    width: 100%;
+    height: 30%;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box>div.span{
+    height: 30px;
+    line-height: 0px;
+    text-align: center;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box>div.span>span{
+    font-size: 17px;
+    line-height: 30px;
+    padding-left: 25px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box>div>div.contain{
+    display: inline-block;
+    width: 32%;
+    height: 150px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box>div>div.contain>div.img{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto 10px auto;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box>div>div.contain>div.img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+div.wrapper>div.menue>nav>div.eight>ul>li>div.mobSubmenue>div.box>div>div.contain>span{
+    font-size: 14px;
+}
